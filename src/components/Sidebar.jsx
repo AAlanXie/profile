@@ -6,17 +6,17 @@ import email from "../../image/email.png";
 const Sidebar = () => {
     return (
         <div className="h-full">
-            <div className="h-screen flex flex-col justify-center items-center fixed top-10">
-                <a href="https://github.com/AAlanXie" className="w-10 h-10 my-10 sticky">
+            <div className="h-screen flex flex-col justify-center items-center fixed">
+                <a href="https://github.com/AAlanXie" className="w-10 h-10 my-10">
                     <img src={github} alt="github" className="cursor-pointer" />
                 </a>
-                <a href="https://www.linkedin.com/in/tianqi-xie0711/" className="w-10 h-10 my-10 sticky">
+                <a href="https://www.linkedin.com/in/tianqi-xie0711/" className="w-10 h-10 my-10">
                     <img src={linkedin} alt="linkedin" className="cursor-pointer" />
                 </a>
-                <a href={cv} className="w-10 h-10 my-10 text-center border-[1px] p-2 bg-white hover:bg-[#dadce3] rounded-full cursor-pointer sticky">
+                <a href={cv} className="w-10 h-10 my-10 text-center border-[1px] p-2 bg-white hover:bg-[#dadce3] rounded-full cursor-pointer">
                     <b>CV</b>
                 </a>
-                <a href="mailto:tianqixie98@gmail.com" className="w-10 h-10 my-10 sticky">
+                <a href="mailto:tianqixie98@gmail.com" className="w-10 h-10 my-10">
                     <img src={email} alt="email" className="cursor-pointer" />
                 </a>
             </div>
